@@ -10,7 +10,7 @@ use Datatables;
 
 class ResellerController extends Controller
 {
-    protected $clientURL = 'http://localhost/project/captainbras-fe/public/';
+    protected $clientURL = 'https://kedeikoko.rrrgho.com/';
     public function ResellerDatatable(){
         $data = Reseller::where('deleted_at',null)->get();
         return Datatables::of($data)

@@ -11,7 +11,7 @@ use Datatables;
 
 class ProductController extends Controller
 {
-    protected $clientURL = 'http://localhost/project/captainbras-fe/public/';
+    protected $clientURL = 'https://kedeikoko.rrrgho.com/';
     public function ProductTypeRegist(Request $request){
         $insert = ProductType::create($request->all());
         if($insert)

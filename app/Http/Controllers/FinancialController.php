@@ -16,7 +16,7 @@ use Datatables;
 
 class FinancialController extends Controller
 {
-    protected $clientURL = 'http://localhost/project/captainbras-fe/public/';
+    protected $clientURL = 'https://kedeikoko.rrrgho.com/';
 
     public function BankLogBetween($transfer_type, $this_bank, $join_bank, $cash_total){
         if($transfer_type != 'top_up' && $transfer_type != 'cut'){
